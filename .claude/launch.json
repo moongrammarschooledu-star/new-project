@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "school-agent",
+      "runtimeExecutable": "C:\\Users\\Syed\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "runtimeArgs": ["school-agent/server.py"],
+      "port": 5000
+    },
+    {
+      "name": "portfolio",
+      "runtimeExecutable": "C:\\Users\\Syed\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "runtimeArgs": ["-m", "http.server", "8000", "--directory", "Munawar"],
+      "port": 8000
+    }
+  ]
+}

@@ -187,6 +187,18 @@
     padding: 26px 20px; font-size: 14px;
   }
   footer b { color: var(--gold); }
+
+  /* ---------- Floating WhatsApp button ---------- */
+  .whatsapp-float {
+    position: fixed; bottom: 24px; right: 24px; z-index: 200;
+    width: 60px; height: 60px; border-radius: 50%;
+    background: #25d366; color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,.3);
+    transition: transform .15s, box-shadow .15s;
+  }
+  .whatsapp-float:hover { transform: scale(1.08); box-shadow: 0 10px 26px rgba(0,0,0,.35); }
+  .whatsapp-float svg { width: 32px; height: 32px; fill: #fff; }
 </style>
 </head>
 <body>
@@ -331,6 +343,13 @@
           </div>
         </div>
         <div class="c-item">
+          <div class="icon">💬</div>
+          <div>
+            <h3>WhatsApp</h3>
+            <p><a href="https://wa.me/923198430458" target="_blank" rel="noopener">0319-8430458</a> — message me directly</p>
+          </div>
+        </div>
+        <div class="c-item">
           <div class="icon">✉️</div>
           <div>
             <h3>Email</h3>
@@ -368,6 +387,10 @@
 <footer>
   © <span id="year"></span> <b>Muhammad Munawar</b> — M.Sc Mathematics · Educator, Lahore
 </footer>
+
+<a class="whatsapp-float" href="https://wa.me/923198430458" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16.04 3C9.02 3 3.32 8.7 3.32 15.72c0 2.24.59 4.42 1.7 6.34L3.2 28.8l6.92-1.81a12.66 12.66 0 0 0 5.92 1.47h.01c7.01 0 12.71-5.7 12.71-12.72 0-3.4-1.32-6.59-3.72-8.99A12.6 12.6 0 0 0 16.04 3zm0 23.32h-.01c-1.9 0-3.76-.51-5.38-1.47l-.39-.23-4.1 1.07 1.1-4-.26-.41a10.55 10.55 0 0 1-1.61-5.56c0-5.83 4.74-10.57 10.58-10.57 2.82 0 5.48 1.1 7.47 3.1a10.5 10.5 0 0 1 3.1 7.48c0 5.83-4.75 10.59-10.5 10.59zm5.8-7.92c-.32-.16-1.88-.93-2.17-1.03-.29-.11-.5-.16-.71.16-.21.32-.82 1.03-1 1.24-.19.21-.37.24-.69.08-.32-.16-1.34-.5-2.56-1.58-.95-.85-1.58-1.9-1.77-2.21-.18-.32-.02-.49.14-.65.14-.14.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.71-1.72-.98-2.36-.26-.62-.52-.53-.71-.54l-.61-.01c-.21 0-.56.08-.85.4-.29.32-1.11 1.09-1.11 2.65 0 1.56 1.14 3.07 1.3 3.28.16.21 2.24 3.42 5.43 4.8.76.33 1.35.52 1.81.67.76.24 1.46.21 2.01.13.61-.09 1.88-.77 2.14-1.51.26-.74.26-1.38.19-1.51-.08-.13-.29-.21-.61-.37z"/></svg>
+</a>
 
 <script>
 document.getElementById('year').textContent = new Date().getFullYear();
