@@ -25,8 +25,8 @@ def _load_api_key():
             val, _ = winreg.QueryValueEx(k, "ANTHROPIC_API_KEY")
             if val:
                 os.environ["ANTHROPIC_API_KEY"] = val
-    except OSError:
-        pass
+    except (OSError, ImportError):
+        pass  # not on Windows (e.g. running on Vercel) — rely on normal env vars
 
 
 _load_api_key()
