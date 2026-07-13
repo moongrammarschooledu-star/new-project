@@ -26,7 +26,7 @@ Playgroup, Nursery, Prep, and Class 1 through Class 10 (Matric).
 
 ## Fees
 - Admission fee: FREE (no admission fee)
-- Monthly tuition fee: PKR 4,000 for every class
+- Monthly tuition fee: PKR 4,000 to 6,000, depending on the class level
 
 ## Admission process
 Parents can visit the school during working hours. Documents to bring
@@ -38,7 +38,7 @@ Parents can visit the school during working hours. Documents to bring
 - Birth certificate
 
 ## Why choose Moon Grammar School
-- FREE admission and an affordable monthly fee (PKR 4,000)
+- FREE admission and an affordable monthly fee (PKR 4,000 to 6,000)
 - Playgroup to Matric, with morning and evening shifts
 - Highly qualified teachers and small class sizes
 - Modern smart classrooms with the Cambridge Scholar EdTech learning program
