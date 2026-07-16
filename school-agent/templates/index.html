@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Moon Grammar School — AI Assistant</title>
+<link rel="icon" href="/static/logo.jpg">
 <style>
   :root {
     --navy: #14213d; --gold: #fca311; --cream: #fdf6e9; --ink: #1b1b1b;
@@ -18,7 +19,7 @@
     background: var(--navy); color: white; padding: 14px 20px;
     display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
   }
-  header .moon { font-size: 28px; }
+  header img.logo { height: 40px; width: auto; background: white; border-radius: 8px; padding: 3px; }
   header h1 { font-size: 20px; font-weight: normal; }
   header h1 b { color: var(--gold); }
   .modes { margin-left: auto; display: flex; gap: 6px; }
@@ -55,7 +56,7 @@
 </head>
 <body>
 <header>
-  <span class="moon">🌙</span>
+  <img class="logo" src="/static/logo.jpg" alt="MGS logo">
   <h1><b>Moon Grammar School</b> — AI Assistant</h1>
   <nav class="modes">
     <button data-mode="school" class="active">School Q&amp;A</button>
